@@ -1,38 +1,194 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  height:550px;
+  
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
   display: flex;
-  flex-direction: column;
+
+  justify-content: flex-end;
+  background-color: black;
+  padding-right:10px;
+}
+.cop{
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-right:10px
+}
+.win{
+  margin-right: 0px;
+}
+.headimage{
+  object-fit: contain;
+  padding-right: 10px;
+}
+.headimage1{
+  object-fit: contain;
+  opacity: 0.4;
+  position: absolute;
+  margin-right: 159px;
+  margin-top: 14px;
+}
+
+.element{
+  margin:1rem;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.navbar{
+  display :flex;
+  
+justify-content: space-between;
+align-items: center;
+}
+.dummy{margin-left: 1rem;}
+.em{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:1rem;
+}
+.em3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.paraelement{
+  padding:0rem 2.5rem 0rem 2.5rem;
+  font-weight: 500;
+}
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style:hidden;
+  background-color: #eee;
+}
+.no-outline:focus {
+  outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.line{
+  border: 1px solid black;
+  margin-top: 5px;
+  width: 100%;
 }
+.wholecard{
+  width:100%;
+  height:500px;
+  display:flex;
+  
+
+}
+.part{
+  display:flex;
+  flex-direction: column;
+  width: 48%;
+  margin: 1rem;
+}
+
+.card{
+  display: flex;
+  display: flex;
+  width: 100%;
+  justify-content:space-between
+}
+.col1{
+  display: flex;
+  flex-direction: column;
+}
+.sideimage{
+  object-fit: contain;
+  height: 68px;
+  margin-bottom: 10px;
+}
+
+.card2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+ 
+    margin-left: 113px;
+}
+.but{
+  margin: 4px;
+  padding: 11px;
+  width: 117px;
+  height: 38px;
+}
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.heb{
+  display: flex;
+  
+  margin: 0px 10px 20px 10px;
+}
+.coldis{
+  flex-direction: column;
+  margin-top: 10px;
+}
+.circle{
+  display: flex;
+    margin: 10px 10px 10px 0px;
+  
+}
+.blue{
+  background-color: blue;
+}
+.black{
+  background-color: black;
+  border: 1px solid red;
+}
+.compress{
+  display: flex;
+  flex-direction: column;
+ 
+  margin: 10px 50px 10px 0px;
+}
+.dip{
+  flex-direction: column;
+}
+.firstbtn{
+  top: 616px;
+  left: 776px;
+  width: 108px;
+  height: 48px;
+  margin-top: 20px;
+  padding-top: 8px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 16px #463F5F1A;
+  border-radius: 4px;
+  opacity: 1;
+  display: inline-block;
+  text-align: center;
+  border: 2px solid rgb(230, 62, 160);
+  cursor: pointer;
+}
+.secondbtn{
+  top: 616px;
+  left: 776px;
+  width: 108px;
+  height: 48px;
+  padding-top: 8px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 16px #463F5F1A;
+  border:none;
+  opacity: 1;
+  display: inline-block;
+  text-align: center;
+  justify-content: space-between;
+  margin-left: 10px;
+  cursor: pointer;
+  }
